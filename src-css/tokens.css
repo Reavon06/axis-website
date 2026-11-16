@@ -1,0 +1,12 @@
+/**
+ * Design tokens — edit brand colors, section spacing, and easing here.
+ */
+:root {
+  --axis-navy: #252a7f;
+  --axis-cyan: #2eaee3;
+  --axis-green: #28a870;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --section-y: clamp(5rem, 12vw, 9rem);
+  --bg-base: #f5f7fa;
+  --bg-mist: #eef3f8;
+}

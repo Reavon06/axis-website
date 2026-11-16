@@ -1,0 +1,17 @@
+{
+  "name": "axis-3d-website-html",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static HTML/CSS version of the AXIS-3D website",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src-css/input.css -o ./assets/css/main.css --minify",
+    "build:pages": "node scripts/build-pages.mjs",
+    "build": "npm run build:css && npm run build:pages",
+    "dev:css": "tailwindcss -i ./src-css/input.css -o ./assets/css/main.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
